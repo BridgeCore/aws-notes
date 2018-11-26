@@ -34,3 +34,10 @@ consider redundancy and failover / backup strategy based on services that can ha
 optimizing the instance types and counts (fewer, larger instances saved them $)
 
 reducing the amount of overprovisioning that is going on.
+
+---
+# NET-312 - A day in the life of a cloud network eng at netlix
+### November 26, 2018
+
+
+
