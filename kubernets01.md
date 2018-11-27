@@ -39,5 +39,32 @@ reducing the amount of overprovisioning that is going on.
 # NET-312 - A day in the life of a cloud network eng at netlix
 ### November 26, 2018
 
+---
+#DEV-316 - advanced devops
+review slides, really good slides.
+Source
+
+use code pipeline to manage the process (states, with tasks)
+DEV309 has details
+
+deploy to prod w/ code deploy
+
+code pipeline sounds like a competitor to jenkins
+
+1. look up
+2. look up
+3. Rollback when deployment fails
+
+---
+#ENT-311 Enterprise devops
+
+1. enablement and repeatability
+2. speed - guardrails required
+3. inclusiveness
+4. focus on differentiating factors
+5. Built-in as opposed to bolt on
+  * visibility
+  * compliance
+  * ...
 
 
