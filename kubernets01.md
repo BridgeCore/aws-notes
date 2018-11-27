@@ -66,5 +66,63 @@ code pipeline sounds like a competitor to jenkins
   * visibility
   * compliance
   * ...
+---
+# secure your aws resources like  pro
+too basic overview of iam and policies
+
+---
+# serverless arch patterns
+### November 26, 2018
+
+see slides:
+github.com/alexcasalboni/
+
+## best practices
+* put dependencies in a separate /lib directory
+* dependency injection is bad for quick starts (use dagger2 over sprint boot)
+* use jackson-jr for data binding (java)
+* use env vars to modify operational behaviour (for fastest secrets mgmt)
+* minimize package size
+
+SAM for local cli testing of lambda functions
+AWS Cloud9 (cloud based IDE)
+AWS CodeStar will create environment, ide/code build/code deploy/etc
+
+1. Web Application Pattern
+cloudfront and s3 for static
+api gateway to lambda to dynamodb
+cognito for user mgmt
+edge optimized (cloudfront distribution)
+check lambda@edge use cases and blueprints (search for cloudfront)
+private API (can be used through direct connect
+
+GraphQL is implemented in AWS AppSync
+
+2. Stream Processing Patterns
+Kineses
+  * video streams
+  * data streams
+  * data firehose
+  * dta analytics
+
+3. Data lakes
+ingest into S3 from Kinesis or IoT or Direct connect (or sftp)
+catalog and search data using dynamodb, glue, ES
+analytics and processing (lambda, etc., s3 select, quicksight, athena, lambda, sagemaker, EMR, Glue [ETL])
+https://aws.amazon.com/answers/big-dta/data-lake-solution/
+athena:
+SELECT gram, year, sum(count) FROM ngram WHERE gram = 'just say no' GROPU BY gram, year ORDER BY year ASC;
+reduce cost for athena queries by reducing files scanned:
+s3://bucket/flight/parquet/year=2018/month=11/day=25
+
+4. Machine Learning
+frameworks (i.e. caffe or tensorflow)
+Platforms (sagemaker, Mechanical Turk)
+API driven services:
+- vision (amazon rekognition)
+- language (polly, transcrie, translate, comprehend)
+- chatbots, Amazon Lex
+
+
 
 
