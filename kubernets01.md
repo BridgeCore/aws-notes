@@ -40,7 +40,7 @@ reducing the amount of overprovisioning that is going on.
 ### November 26, 2018
 
 ---
-#DEV-316 - advanced devops
+# DEV-316 - advanced devops
 review slides, really good slides.
 Source
 
@@ -56,7 +56,7 @@ code pipeline sounds like a competitor to jenkins
 3. Rollback when deployment fails
 
 ---
-#ENT-311 Enterprise devops
+# ENT-311 Enterprise devops
 
 1. enablement and repeatability
 2. speed - guardrails required
