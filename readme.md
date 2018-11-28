@@ -2,6 +2,8 @@
 **Yaniv Donenfeld** - Sr. Business Development Manager
 **Karl D'Adamo** - Senior Director of Engineering, Snapchat
 *November 26, 2018*
+https://www.youtube.com/watch?v=8OPkt93WyPA
+
 
 51% of kubernetes clusters are run on aws
 
@@ -37,11 +39,14 @@ reducing the amount of overprovisioning that is going on.
 
 ---
 # NET-312 - A day in the life of a cloud network eng at netlix
+https://www.youtube.com/watch?v=95nfMj4PVDA
 
 Awesome presentation. Good examples of how to overcome huge scale tech problems.
 
 ---
 # DEV-317 - Advanced Continuous Delivery Best Practices
+https://www.youtube.com/watch?v=Jnl29J3RJQ4
+
 review slides, really good slides.
 
 use code pipeline to manage the process (states, with tasks)
@@ -57,6 +62,7 @@ code pipeline sounds like a competitor to jenkins
 
 ---
 # ENT-311 Enterprise devops patterns
+https://www.youtube.com/watch?v=bjOEDItOdjI
 
 1. enablement and repeatability
 2. speed - guardrails required
@@ -68,11 +74,14 @@ code pipeline sounds like a competitor to jenkins
   * ...
 ---
 # SEC203 - A Practitioners guide to securing your cloud like an expert
+https://www.youtube.com/watch?v=5UDSxV9pbnU
+
 too basic overview of iam and policies
 
 ---
 # ARC305 - Serverless arch patterns and best practices
 ### November 26, 2018
+https://www.youtube.com/watch?v=08AjVGGQaKQ
 
 see slides:
 github.com/alexcasalboni/
@@ -124,16 +133,20 @@ API driven services:
 - chatbots, Amazon Lex
 ---
 # CON307-S - Production-Ready Environments for Kubernetes
+
 just a big sales pitch for cisco
 
 ---
 # CMP 310-S Application Portability with Kubernetes
+https://www.youtube.com/watch?v=AU7EBRViwhE
+
 VMWare sales pitch. Good functionality for managing the number of nodes deployed in a kubernetes cluster. Similar functionality to openshift
 
 ---
 # CON305 - Get SaaSy with RH Openshift on AWS
+https://www.youtube.com/watch?v=w7zeXk6Kggk
 
-bad link --> http://bit.ly/wI18UMw
+http://bit.ly/2I18UMw
 
 install to dev environment:
 https://github.com/fusor/catasb
@@ -172,10 +185,28 @@ https://aws.amazon.com/quickstart/architecture/openshift
 
 ---
 # CON205-R1 - Getting started with Kubernetes on AWS
-Workshop
+Workshop - no video
 other 
 CON 323
 CON 411
 ---
-# DEV306 
-workshop on monitoring
+# DEV306
+workshop - no video
+
+lab: https://s3-us-west-2.amazonaws.com/aws-well-architected-labs/Operations/DEV306CloudWatch.html
+
+Will be posted to github aws well architected framework
+
+**Design Principles**
+* perform operations as code
+* annotated documentation
+* make frequent, small, reversible changes
+* refine ops procedures frequently
+* antisipate failure (have a pre-mortem to determine risk, and drive out the risk)
+* learn from all operational failures
+
+**reasons to change**
+1 something you want
+2 something to fix
+3 to satisfy requirements
+
