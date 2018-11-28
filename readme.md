@@ -1,7 +1,7 @@
 # CON301-R - Mastering Kubernetes on AWS
-*Yaniv Donenfeld* - Sr. Business Development Manager
-*Karl D'Adamo* - Senior Director of Engineering, Snapchat
-#November 26, 2018#
+**Yaniv Donenfeld** - Sr. Business Development Manager
+**Karl D'Adamo** - Senior Director of Engineering, Snapchat
+*November 26, 2018*
 
 51% of kubernetes clusters are run on aws
 
@@ -16,10 +16,10 @@ Logging: workers
 look into using fluentd couldwatch plugin. see info in picture
 https://eksworkshop.com/logging
 
+another good session to review is: 
 CON361  - Deep Dive on Amazon EKS
 
----
-Snapchat info for use of EKS:
+### Snapchat info for use of EKS:
 How to manage the scaling of the engineering organizations
 This guy manages teams that build internal apps for the Snapchat engineering teams
 
@@ -37,16 +37,15 @@ reducing the amount of overprovisioning that is going on.
 
 ---
 # NET-312 - A day in the life of a cloud network eng at netlix
-### November 26, 2018
+
 Awesome presentation. Good examples of how to overcome huge scale tech problems.
 
 ---
 # DEV-317 - Advanced Continuous Delivery Best Practices
 review slides, really good slides.
-Source
 
 use code pipeline to manage the process (states, with tasks)
-DEV309 has details
+review session DEV309 for additional details
 
 deploy to prod w/ code deploy
 
@@ -174,4 +173,9 @@ https://aws.amazon.com/quickstart/architecture/openshift
 ---
 # CON205-R1 - Getting started with Kubernetes on AWS
 Workshop
-
+other 
+CON 323
+CON 411
+---
+# DEV306 
+workshop on monitoring
