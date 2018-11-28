@@ -206,7 +206,7 @@ Will be posted to github aws well architected framework
 * learn from all operational failures
 
 **reasons to change**
-1 something you want
-2 something to fix
-3 to satisfy requirements
-
+1. something you want
+2. something to fix
+3. to satisfy requirements
+Otherwise you shouldn't be making the change (example, daily patching will break things w/ no value if your compliance requirement is to patch monthly)
