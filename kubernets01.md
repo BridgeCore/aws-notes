@@ -123,6 +123,45 @@ API driven services:
 - language (polly, transcrie, translate, comprehend)
 - chatbots, Amazon Lex
 
+---
+# OPenshift on AWS
+
+http://bit.ly/wI18UMw
+
+install to dev environment:
+https://github.com/fusor/catasb
+
+https://aws.amazon.com/quickstart/architecture/openshift
+
+openshift service catalog allows you bind aws services to openshift applications
+demo w/ s3, ml
+
+Openshift 3.11 info:
+* multiple consoles
+  * service catalog
+  * application console
+  * cluster console
+* visibility into nodes
+  * resource utilization for nodes
+* rbac users and sercie accounts with a specific role
+  * visually audit a role's verbs and objects
+    *  cluster event stream
+* operator sdk
+* jenkins plugins
+* AWS atoscale groups
+* router improvements
+    * http/2
+    * reload config changes
+    * ssl/tls cert validation
+    * EFK logging of router
+* security
+  * define rules to enforce compliance
+* prometheus monitoring is built in and GA
+* logging
+  * ES 5 and Kibana 5
+
+quickstart
+https://aws.amazon.com/quickstart/architecture/openshift
 
 
 
