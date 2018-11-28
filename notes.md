@@ -1,7 +1,7 @@
 # CON301-R - Mastering Kubernetes on AWS
-## Yaniv Donenfeld - Sr. Business Development Manager
-## Karl D'Adamo - Senior Director of Engineering, Snapchat
-### November 26, 2018
+*Yaniv Donenfeld* - Sr. Business Development Manager
+*Karl D'Adamo* - Senior Director of Engineering, Snapchat
+#November 26, 2018#
 
 51% of kubernetes clusters are run on aws
 
