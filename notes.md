@@ -38,9 +38,10 @@ reducing the amount of overprovisioning that is going on.
 ---
 # NET-312 - A day in the life of a cloud network eng at netlix
 ### November 26, 2018
+Awesome presentation. Good examples of how to overcome huge scale tech problems.
 
 ---
-# DEV-316 - advanced devops
+# DEV-317 - Advanced Continuous Delivery Best Practices
 review slides, really good slides.
 Source
 
@@ -56,7 +57,7 @@ code pipeline sounds like a competitor to jenkins
 3. Rollback when deployment fails
 
 ---
-# ENT-311 Enterprise devops
+# ENT-311 Enterprise devops patterns
 
 1. enablement and repeatability
 2. speed - guardrails required
@@ -67,11 +68,11 @@ code pipeline sounds like a competitor to jenkins
   * compliance
   * ...
 ---
-# secure your aws resources like  pro
+# SEC203 - A Practitioners guide to securing your cloud like an expert
 too basic overview of iam and policies
 
 ---
-# serverless arch patterns
+# ARC305 - Serverless arch patterns and best practices
 ### November 26, 2018
 
 see slides:
@@ -122,11 +123,18 @@ API driven services:
 - vision (amazon rekognition)
 - language (polly, transcrie, translate, comprehend)
 - chatbots, Amazon Lex
+---
+# CON307-S - Production-Ready Environments for Kubernetes
+just a big sales pitch for cisco
 
 ---
-# OPenshift on AWS
+# CMP 310-S Application Portability with Kubernetes
+VMWare sales pitch. Good functionality for managing the number of nodes deployed in a kubernetes cluster. Similar functionality to openshift
 
-http://bit.ly/wI18UMw
+---
+# CON305 - Get SaaSy with RH Openshift on AWS
+
+bad link --> http://bit.ly/wI18UMw
 
 install to dev environment:
 https://github.com/fusor/catasb
@@ -163,5 +171,7 @@ Openshift 3.11 info:
 quickstart
 https://aws.amazon.com/quickstart/architecture/openshift
 
-
+---
+# CON205-R1 - Getting started with Kubernetes on AWS
+Workshop
 
