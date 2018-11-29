@@ -21,7 +21,7 @@ https://eksworkshop.com/logging
 another good session to review is: 
 CON361  - Deep Dive on Amazon EKS
 
-### Snapchat info for use of EKS:
+**Snapchat info for use of EKS:**
 How to manage the scaling of the engineering organizations
 This guy manages teams that build internal apps for the Snapchat engineering teams
 
@@ -80,13 +80,13 @@ too basic overview of iam and policies
 
 ---
 # ARC305 - Serverless arch patterns and best practices
-### November 26, 2018
+*November 26, 2018*
 https://www.youtube.com/watch?v=08AjVGGQaKQ
 
 see slides:
 github.com/alexcasalboni/
 
-## best practices
+**best practices**
 * put dependencies in a separate /lib directory
 * dependency injection is bad for quick starts (use dagger2 over sprint boot)
 * use jackson-jr for data binding (java)
@@ -192,6 +192,7 @@ Workshop - no video
 other 
 CON 323
 CON 411
+
 ---
 # DEV306
 workshop - no video
@@ -211,7 +212,7 @@ Will be posted to github aws well architected framework
 **reasons to change**
 1. something you want
 2. something to fix
-3. to satisfy requirements
+3. to satisfy requirements (regulatory)
 Otherwise you shouldn't be making the change (example, daily patching will break things w/ no value if your compliance requirement is to patch monthly)
 
 ---
@@ -243,3 +244,19 @@ VPC route limits constrain the amount of VPC peering connections
 using aws Transit Gateway (TGW)
 VPCs (or direct connect) are attached to a TGW. 
 Transit Gateways allow for a lot more flexibility of VPC connections (and on prem connection options)
+
+---
+# STG403 - Advanced Storage w/ s3 and glacier
+https://stg403.s3.amazonaws.com/guide.html
+
+putting in glacier
+1. use lifecycle rule
+2. s3 put opbject to glacier
+3. s3 put copy to glacier
+4. Cross Region Replication w/ destination bucket lifecycle rule to add to glacier
+
+* s3 now provides restore notifications (SNS, SQS, Lambda)
+
+**two modes for s3 object locks**
+1. **Governance mode** (specific IAM permisssions to remove WORM protections)
+2. **Compliance Mode** (no API/user to remove WORM protection)
