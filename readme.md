@@ -184,6 +184,9 @@ quickstart
 https://aws.amazon.com/quickstart/architecture/openshift
 
 ---
+# keynote
+
+---
 # CON205-R1 - Getting started with Kubernetes on AWS
 Workshop - no video
 other 
@@ -210,3 +213,33 @@ Will be posted to github aws well architected framework
 2. something to fix
 3. to satisfy requirements
 Otherwise you shouldn't be making the change (example, daily patching will break things w/ no value if your compliance requirement is to patch monthly)
+
+---
+# NET303 Advanced VPC Design and New Capabilities
+
+updates on new VPC capabilities
+VPC sharing allows multiple accounts to share a VPC. There is one account that is the owner, and that defines the CIDR block. The owner defines route tables. But the participants own the resources. The owner cannot delete participant's resources.
+Must be in the same AWS organization
+no VPC peering required
+No AZ cost for data transfer
+
+VPC Sharing
+https://amzn.to/2Aovw2Z
+
+https://amzn.to/2FI3y90
+
+Hybrid Clouds (using R53 over hybrid)
+https://amzn.to/2ByEw7s
+
+Client VPN
+allows (laptop to VPN into a VPC)
+
+Client VPN session: NET304
+
+VPC to VPC connections using VPC Peering can be complex with lots of VPCs
+for full Mesh VPC peering, n(n-1)/2 VPC Peering COnnections
+i.e. 10 VPCs, fully meshed is 45 VPC Peering connections
+VPC route limits constrain the amount of VPC peering connections
+using aws Transit Gateway (TGW)
+VPCs (or direct connect) are attached to a TGW. 
+Transit Gateways allow for a lot more flexibility of VPC connections (and on prem connection options)
