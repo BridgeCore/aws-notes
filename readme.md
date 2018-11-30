@@ -247,6 +247,8 @@ Transit Gateways allow for a lot more flexibility of VPC connections (and on pre
 
 ---
 # STG403 - Advanced Storage w/ s3 and glacier
+workshop, no video
+
 https://stg403.s3.amazonaws.com/guide.html
 
 putting in glacier
@@ -265,10 +267,13 @@ putting in glacier
 # keynote 2
 lots of feature announcements
 
+visual studio code toolkit (not GA, but on github): 
+https://github.com/aws/aws-toolkit-vscode
 ---
 
 #DEV305 - AWS DevOps Essensitals and intro workshop on CI/CD
 workshop, no video
+
 https://github.com/awslabs/aws-devops-essential
 
 https://bit.ly/2rMcMXF
@@ -278,6 +283,7 @@ my run notes:
 ---
 
 # SRV 314 - Securing Serverless Applications and AWS Lambda
+workshop, no video
 
 https://amzn.to/serverless-security
 
@@ -286,3 +292,29 @@ owasp.org
 
 scenario:
 wildrydes.com expansion for customization
+
+# DEV321 What's New w/ AWS CloudFormation
+
+* cloudformation supports privagelink (traffic does not traverse the internet)
+* StackSets are stacks accross multiple regions
+* amazon.com uses stacksets to create temporary accounts w/ budgets, etc.
+  * $1k max budget
+  * 7 day max life
+  * max 2 accounts per developer
+  * automatically deleted
+
+**Improved Handling of secrets:**
+SSM Parameter store allows the use of "global" parameters in CF templates
+dynamic references 
+lets you use {{resolve:ssm-secure:xxxxxxx:1}} instead of pwds in the CF templates
+also can resolve resolve:secretsmaager
+
+CF Macros
+enables template coders to write short-hand, instructions that expand when deployed
+* utility fns
+* iteration/ looping
+* strings
+can be reused accross CF stacks in the account
+
+
+
