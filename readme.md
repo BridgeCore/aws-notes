@@ -274,30 +274,6 @@ https://github.com/awslabs/aws-devops-essential
 https://bit.ly/2rMcMXF
 
 my run notes:
-user: devops
-https://git-codecommit.us-east-1.amazonaws.com/v1/repos/WebAppRepo
-
-devops-at-993037553293
-gn+j7HkU0+yxbgVoaJjyjFwEBDxBk33icDAo8c4lKPg=
-
-bucket: cicd-workshop-us-east-1-993037553293
-
-BuildRole arn:
-arn:aws:iam::993037553293:role/DevopsWorkshop-roles-BuildTrustRole-G2Z50PP9UST1
-
-first build id:
-"id": "devops-webapp-project:862b2a41-9892-4b28-b025-5da91d55554c", 
-
-
-codedeploy arn:
-arn:aws:iam::993037553293:role/DevopsWorkshop-roles-DeployTrustRole-TVRSNZCD49GD
-
-2nd deploy's etag:
-bf67a844a5f08ce1b62ffb5adb338530-3
-
-code deploy arn:
-arn:aws:iam::993037553293:role/DevopsWorkshop-roles-DeployTrustRole-TVRSNZCD49GD
-
 
 ---
 
@@ -305,35 +281,8 @@ arn:aws:iam::993037553293:role/DevopsWorkshop-roles-DeployTrustRole-TVRSNZCD49GD
 
 https://amzn.to/serverless-security
 
-my items
-AuroraEndpoint:
-secure-serverless-auroradbcluster-1wuw7v16oragd.cluster-czwk5zhxulgp.us-east-1.rds.amazonaws.com
-
-s3 bucket:
-secure-serverless-deploymentss3bucket-rri7m5jo1u7m
-
-stack endpoint:
-https://a0c9yrznk6.execute-api.us-east-1.amazonaws.com/dev/
-
-domain-name:
-https://custom-unicorn-jake.auth.us-east-1.amazoncognito.com
-
-App client id:
-26ilrkqhpeaju6gdvvlqi6j7j
-
-App client secret:
-11erele327r9ca6pchalav6q5qhnsoam2mv7rpq23d53is9iqpoc
-
-Jake is Good Company:
-{
-    "ClientID": "3kf3pm9s1dv57uiua1h3lvpmuk",
-    "ClientSecret": "keqnjb2mj1g2sgop23505103l5ulp89tnije6okdfc9fk2pkukq"
-}
-
 current risk priority:
 owasp.org
 
 scenario:
 wildrydes.com expansion for customization
-
-SkyMiles®#9182501511 >
