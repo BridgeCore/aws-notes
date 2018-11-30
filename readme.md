@@ -277,7 +277,7 @@ my run notes:
 
 ---
 
-# SRV 314 - Wecuring Serverless Applications and AWS Lambda
+# SRV 314 - Securing Serverless Applications and AWS Lambda
 
 https://amzn.to/serverless-security
 
